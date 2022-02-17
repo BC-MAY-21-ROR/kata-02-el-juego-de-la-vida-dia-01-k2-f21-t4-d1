@@ -35,7 +35,6 @@ def imprimir(matriz)
   end
 end
 
-
 def sumarUno(r, c)
   if r >= 0 and r < @rows and c >= 0 and c < @cols
     @matrizpuntos[r][c] += 1
